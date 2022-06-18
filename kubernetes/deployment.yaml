@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: go-app
-          image: tkordic/github-actions-test:latest
+          image: gcr.io/PROJECT_ID/IMAGE:TAG
           resources:
             requests:
               memory: "128Mi"
